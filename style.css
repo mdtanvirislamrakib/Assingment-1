@@ -553,5 +553,10 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    cursor: pointer;
     margin: 32px auto;
+    transition: 0.5s;
+}
+.money-btn:hover {
+    background-color: rgb(2, 66, 50);
 }
