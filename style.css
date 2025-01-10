@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+/* nav bar */
+.header {
+    margin: 30px auto;
+    width: 1280px;
+}
+.navbar {
+    margin-bottom: 30px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+.logo {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav-btn {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 2px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+.nav-btn:hover {
+    background-color: rgb(0, 106, 80);
+    color: #fff;
+}
+
+/* header section */
+
+.header-section {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 100px;
+    
+}
+.header-content-text {
+    width: 600px;
+}
+
+.header-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.header-sub-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.header-btn {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 34px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-btn:hover {
+    background-color: rgb(2, 77, 58);
+    color: rgb(255, 255, 255);
+}
+.header-image {
+    width: 470px;
+}
