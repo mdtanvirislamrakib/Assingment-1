@@ -321,6 +321,9 @@ main {
     background: rgb(136, 96, 2);
 }
 
+
+
+/* younus section */
 .younus {
     background: url("assets/quote-bg.png"), rgb(255, 255, 255);
     background-repeat: no-repeat;
@@ -360,4 +363,87 @@ main {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* news section */
+
+.news-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.news-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+}
+.news-content-1, .news-content-2 {
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    margin-top: 48px;
+    padding: 48px;
+}
+.news-content-1 .news-image, .news-content-2 .news-image {
+    border-radius: 24px;
+    width: 408px;
+}
+.news-logo {
+    margin: 12px 0px;
+}
+.news-title {
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0;
+}
+.news-btn {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.news-btn:hover {
+    background-color: rgb(5, 75, 56);
 }
