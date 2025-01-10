@@ -366,7 +366,9 @@ main {
 }
 
 /* news section */
-
+.news {
+    margin-bottom: 80px;
+}
 .news-heading {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -418,6 +420,26 @@ main {
     letter-spacing: 0%;
     text-align: left;
 }
+.date {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.date span {
+    margin-left: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 .news-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -426,7 +448,7 @@ main {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-    margin: 32px 0;
+    margin-bottom: 32px;
 }
 .news-btn {
     border-radius: 8px;
@@ -446,4 +468,26 @@ main {
 }
 .news-btn:hover {
     background-color: rgb(5, 75, 56);
+}
+
+.donate-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donate-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px auto 32px;
+    width: 1100px;
 }
