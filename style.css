@@ -54,11 +54,14 @@ body {
     color: #fff;
 }
 
+
+
 /* header section */
 
 .header-section {
     border-radius: 24px;
     background: rgb(198, 228, 214);
+    margin-bottom: 80px;
 }
 .header-content {
     display: flex;
@@ -113,4 +116,248 @@ body {
 }
 .header-image {
     width: 470px;
+}
+
+/*main section*/
+
+main {
+    width: 1280px;
+    margin: 30px auto;
+}
+.pillar-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.pillar-cards {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.pillar-card {
+    width: 300px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pillar-card:hover {
+    scale: 1.09;
+}
+.pillar-card-image {
+    width: 60px;
+    margin-bottom: 25px;
+}
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.future-vision {
+    width: 1280px;
+    margin: 30px auto;
+}
+.vision-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.future-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.future-card-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    transition: 0.5s;
+}
+.future-card-1:hover {
+    scale: 0.95;
+}
+.future-card img {
+    width: 60px;
+}
+.future-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+}
+.future-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+.future-card-1-btn {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.future-card-1-btn:hover {
+    background-color: rgb(2, 43, 114);
+}
+
+.future-card-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    transition: 0.5s;
+}
+.future-card-2:hover {
+    scale: 0.95;
+}
+.future-card-2-btn {
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.future-card-2-btn:hover {
+    background-color: rgb(0, 68, 37);
+}
+.future-card-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+    transition: 0.5s;
+}
+.future-card-3:hover {
+    scale: 0.95;
+}
+.future-card-3-btn {
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.future-card-3-btn:hover {
+    background: rgb(136, 96, 2);
+}
+
+.younus {
+    background: url("assets/quote-bg.png"), rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: 28px 30px;
+    background-size: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    margin-bottom: 80px;
+}
+.younus-description {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.name {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.younus-position {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
