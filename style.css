@@ -491,3 +491,67 @@ main {
     margin: 0px auto 32px;
     width: 1100px;
 }
+
+.donate-card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-around;
+    width: 1100px;
+    margin: 32px auto 0px;
+}
+.donate-taka {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.donate-taka:hover {
+    background: rgb(198, 228, 214);
+}
+#money {
+    width: 900px;
+    margin: 32px auto;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+}
+.money-btn {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 32px auto;
+}
