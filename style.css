@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Fira Sans;
 }
 body {
     background-color: rgb(245, 245, 245);
@@ -11,10 +12,11 @@ body {
 /* nav bar */
 .header {
     margin: 30px auto;
-    width: 1280px;
+    max-width: 1280px;
 }
 .navbar {
     margin-bottom: 30px;
+    
 }
 .navbar ul {
     display: flex;
@@ -29,20 +31,15 @@ body {
 }
 .logo {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 .nav-btn {
     color: rgb(0, 106, 80);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
     text-align: center;
     border: 2px solid rgb(0, 106, 80);
     border-radius: 5px;
@@ -76,34 +73,25 @@ body {
 
 .header-title {
     color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 16px;
 }
 .header-sub-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 25px;
 }
 .header-btn {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
     padding: 17px 34px;
     border: none;
     outline: none;
@@ -121,17 +109,14 @@ body {
 /*main section*/
 
 main {
-    width: 1280px;
+    max-width: 1280px;
     margin: 30px auto;
 }
 .pillar-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 32px;
 }
 .pillar-cards {
@@ -159,46 +144,38 @@ main {
 }
 .card-title {
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
+   
     margin-bottom: 12px;
 }
 .card-description {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 24px;
 }
+
+/* futute section */
+
 .future-vision {
     width: 1280px;
     margin: 30px auto;
 }
 .vision-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 24px;
 }
 .vision-description {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 32px;
 }
 .future-card {
@@ -221,22 +198,16 @@ main {
 }
 .future-title {
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-top: 25px;
 }
 .future-description {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-top: 12px;
 }
 .future-card-1-btn {
@@ -246,12 +217,9 @@ main {
     padding: 11px 20px;
     border: none;
     outline: none;
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-top: 24px;
     cursor: pointer;
     transition: 0.5s;
@@ -277,12 +245,9 @@ main {
     padding: 11px 20px;
     border: none;
     outline: none;
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-top: 24px;
     cursor: pointer;
     transition: 0.5s;
@@ -304,12 +269,9 @@ main {
     border-radius: 8px;
     background: rgb(255, 194, 57);
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
     padding: 11px 20px;
     border: none;
     outline: none;
@@ -337,32 +299,23 @@ main {
 }
 .younus-description {
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
+    line-height: 24px;   
     margin-bottom: 12px;
 }
 .name {
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 8px;
 }
 .younus-position {
     color: rgba(14, 14, 14, 0.6);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
 /* news section */
@@ -371,22 +324,16 @@ main {
 }
 .news-heading {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 24px;
 }
 .news-content {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
 .news-container {
@@ -413,53 +360,38 @@ main {
 .news-title {
     margin: 12px 0px;
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 .date {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 12px;
 }
 .date span {
     margin-left: 12px;
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 .news-description {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 32px;
 }
 .news-btn {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
     padding: 13px 26px;
     border: none;
     outline: none;
@@ -469,26 +401,24 @@ main {
 .news-btn:hover {
     background-color: rgb(5, 75, 56);
 }
+
+/* donate sections */
 .donate-section {
     margin-bottom: 80px;
 }
 .donate-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: center;
     margin-bottom: 24px;
 }
 .donate-description {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: center;
     margin: 0px auto 32px;
     width: 1100px;
@@ -508,17 +438,16 @@ main {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
     padding: 40px;
     cursor: pointer;
     transition: 0.5s;
 }
-
+.select {
+    background: rgb(198, 228, 214);
+}
 .donate-taka:hover {
     background: rgb(198, 228, 214);
 }
@@ -529,11 +458,9 @@ main {
     border: none;
     outline: none;
     color: rgba(14, 14, 14, 0.3);
-    font-family: Fira Sans;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: center;
     border-radius: 20px;
     display: block;
@@ -544,11 +471,9 @@ main {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
     text-align: center;
     padding: 17px 34px;
     display: flex;
@@ -572,21 +497,17 @@ main {
 }
 .subscribe-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: center;
     margin-bottom: 16px;
 }
 .subscribe-description {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: center;
     width: 622px;
     margin: 0px auto 24px;
@@ -606,13 +527,10 @@ main {
     border: none;
     outline: none;
     color: rgba(14, 14, 14, 0.3);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
-}
+}    
 
 .subscribe-btn {
     border-radius: 0px 8px 8px 0px;
@@ -623,12 +541,9 @@ main {
     width: 150px;
 
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -637,15 +552,14 @@ main {
 }
 .subscribe-footer {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: center;
     margin-top: 24px;
 }
 
+/* footer sections */
 footer {
     background: rgb(255, 255, 255);
     padding: 50px 100px;
@@ -656,11 +570,9 @@ footer {
 }
 .footer-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: 0%;
     text-align: center;
     margin-bottom: 31px;
 }
