@@ -469,7 +469,9 @@ main {
 .news-btn:hover {
     background-color: rgb(5, 75, 56);
 }
-
+.donate-section {
+    margin-bottom: 80px;
+}
 .donate-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -559,4 +561,123 @@ main {
 }
 .money-btn:hover {
     background-color: rgb(2, 66, 50);
+}
+
+/*Subscribe section*/
+.subscribe {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px;
+    margin-bottom: 80px;
+}
+.subscribe-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.subscribe-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 622px;
+    margin: 0px auto 24px;
+}
+
+.subscribe-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#email {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px;
+    width: 600px;
+    border: none;
+    outline: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.subscribe-btn {
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px;
+    border: none;
+    outline: none;
+    width: 150px;
+
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.subscribe-btn:hover {
+    background: rgb(0, 54, 41);
+}
+.subscribe-footer {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    padding: 50px 100px;
+}
+.footer {
+    width: 80%;
+    margin: auto;
+}
+.footer-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 31px;
+}
+.border {
+    border-bottom: 1px solid rgba(14, 14, 14, 0.589);
+}
+.footer-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 31px;
+}
+.footer-image img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-image img:hover {
+    scale: 1.1;
 }
